@@ -15,7 +15,8 @@ header {
 }
 
 #aPropos {
-  min-height: 50vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #bg-home {
@@ -23,6 +24,11 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+#projets {
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 #competences {
@@ -37,7 +43,8 @@ header {
 }
 
 #blog {
-  min-height: 50vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .overlay {
