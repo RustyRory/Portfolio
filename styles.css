@@ -1,0 +1,65 @@
+a {
+  color: #198754;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+a:hover {
+  color: #198754;
+}
+
+header {
+  z-index: 2;
+  min-height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1536859355448-76f92ebdc33d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#aPropos {
+  min-height: 50vh;
+}
+
+#bg-home {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#competences {
+  z-index: 2;
+  min-height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1536859355448-76f92ebdc33d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#contact {
+  z-index: 2;
+  min-height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1536859355448-76f92ebdc33d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#blog {
+  min-height: 50vh;
+}
+
+.overlay {
+  background: linear-gradient(rgba(10, 100, 0, 0.3), rgba(0, 43, 7, 0.3));
+  z-index: -1;
+}
+
+.navbar {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour l'état actif (ouvert) */
+.accordion-button:not(.collapsed) {
+  background-color: #198754; /* Couleur lorsque l'accordion est ouvert */
+  color: white;
+}
+
+/* Masquer l'icône SVG par défaut */
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5); /* Vert transparent pour le focus */
+}
