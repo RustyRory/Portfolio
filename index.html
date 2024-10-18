@@ -50,16 +50,7 @@
     <!-- NAVBAR -->
     <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <!-- width="30"
-            height="24" -->
-          <img
-            src="/docs/5.0/assets/brand/bootstrap-logo.svg"
-            alt="LOGO"
-            class="d-inline-block align-text-top"
-          />
-          DamienP
-        </a>
+        <a class="navbar-brand" href="#"> DamienP </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -890,19 +881,30 @@
           <div
             class="col-12 col-md-10 col-lg-8 justify-content-center text-white text-center"
           >
-            <form action="#" class="row">
+            <form action="#contact" class="row g-4">
               <div class="form-group col-md-6">
                 <input
                   type="text"
                   class="form-control"
                   placeholder="Nom et prénom"
+                  disabled
                 />
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" placeholder="Email" />
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  disabled
+                />
               </div>
               <div class="form-group col-md-12">
-                <input type="text" class="form-control" placeholder="Objet" />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Objet"
+                  disabled
+                />
               </div>
               <div class="form-group col-md-12">
                 <textarea
@@ -912,7 +914,13 @@
                   rows="4"
                   class="form-control"
                   placeholder="Votre message"
+                  disabled
                 ></textarea>
+              </div>
+              <div class="form-group col-md-12">
+                <button type="submit" class="form-group col-12 btn btn-success">
+                  Envoyer
+                </button>
               </div>
             </form>
           </div>
@@ -923,7 +931,6 @@
     <!-- END OF SECTION CONTACT -->
 
     <!-- FOOTER -->
-
     <footer
       class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
     >
@@ -980,7 +987,6 @@
         </div>
       </div>
     </footer>
-
     <!-- END OF FOOTER -->
 
     <!-- Optional JavaScript; choose one of the two! -->
