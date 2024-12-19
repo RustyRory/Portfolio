@@ -1,0 +1,65 @@
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/400/767/non_2x/dark-widesreen-background-with-hexagons-with-different-transparencies-modern-black-geometric-design-simple-illustration-vector.jpg);
+}
+
+/* Personnalisation pour l'image en arrière-plan */
+.bg-image {
+  height: 100vh; /* Hauteur totale de la fenêtre */
+  position: relative; /* Positionnement relatif pour l'enfant */
+}
+
+/* Style des titres */
+.typing-title h1,
+.typing-title h2 {
+  white-space: nowrap; /*Empêche le retour à la ligne*/
+  overflow: hidden; /* Cache le texte qui n'est pas encore "tapé" */
+}
+
+/* Classe pour l'animation d'apparition */
+.show-up {
+  opacity: 0; /* Invisible par défaut */
+  animation: showUp 3s ease-in-out forwards;
+  animation-delay: 3s; /* Délai de 3 secondes */
+  transition: transform 0.3s ease-in-out; /* Transition pour le hover */
+}
+
+/* Effet hover */
+.show-up:hover {
+  transform: translateY(-5px); /* Légère élévation vers le haut */
+}
+
+.nav-footer-icon {
+  color: #adb5bd;
+  transition: opacity 0.5s ease;
+}
+
+.nav-footer-icon:hover {
+  opacity: 0.5;
+}
+
+.link-opacity-animation {
+  color: #adb5bd;
+  transition: opacity 0.5s ease;
+}
+
+.link-opacity-animation:hover {
+  opacity: 0.5;
+}
+
+.card-animation-zoom {
+  transition: transform 0.5s ease;
+}
+
+.card-animation-zoom:hover {
+  transform: scale(1.05);
+}
+
+/* Animation pour le bouton */
+@keyframes showUp {
+  0% {
+    opacity: 0; /* Transparent */
+  }
+  100% {
+    opacity: 1; /* Opaque */
+  }
+}
